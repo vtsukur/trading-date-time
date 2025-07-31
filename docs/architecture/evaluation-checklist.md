@@ -10,7 +10,7 @@ Systematic framework for deterministic evaluation of code against ADRs. Use this
 - Document specific issues found for any ❌ FAIL or ⚠️ REVIEW
 - **CRITICAL**: Double-check all ❌ FAIL items before reporting to ensure they represent actual issues, not misapplication of criteria
 
-## ADR P002: Module Structure Patterns
+## ADR 002: Module Structure Patterns
 
 ### Required Elements
 - [ ] **API Gateway**: Top-level index.ts serves as public API gateway
@@ -26,7 +26,7 @@ Systematic framework for deterministic evaluation of code against ADRs. Use this
 - [ ] **Realistic**: Import paths use appropriate project-relative paths (e.g., 'src/core/time')
 - [ ] **Complete**: No missing context or broken references
 
-## ADR T002: Unified API Design
+## ADR 004: Unified API Design
 
 ### Core Principles
 - [ ] **Unified Interface**: Single type for trading + date/time operations
@@ -41,7 +41,7 @@ Systematic framework for deterministic evaluation of code against ADRs. Use this
 - [ ] **Workflow Completeness**: Examples show start-to-finish operations
 - [ ] **Domain Specificity**: Uses trading-specific variable names and patterns
 
-## ADR P001: Naming Conventions
+## ADR 001: Naming Conventions
 
 ### Consistency Checks
 - [ ] **File Names**: camelCase for all files (never PascalCase)

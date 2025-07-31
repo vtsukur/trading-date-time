@@ -8,7 +8,7 @@ Consistent naming conventions are critical for maintainable codebases. During de
 
 ## Decision
 
-Establish the following naming conventions for the trading backtester:
+Establish the following naming conventions for the trading date-time library:
 
 ### Multi-Word Term Naming
 - **Human-readable strings**: Use separate words (e.g., "time frame", "trading day", "market data")

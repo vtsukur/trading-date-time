@@ -4,8 +4,8 @@
 
 ## Context
 
-The time package needed consistent naming for the primary date/time representation used throughout the trading backtester. Multiple naming options were considered:
-- `DateTime` (ideal for a backtester project)
+The time package needed consistent naming for the primary date/time representation used throughout the trading date-time library. Multiple naming options were considered:
+- `DateTime` (ideal for a date-time library)
 - `TradingDateTime`
 - `MarketTime`
 - `TradingTime`
@@ -99,7 +99,7 @@ While `TradingTime` saves 7 characters, the potential for misinterpretation in a
 
 - **Design drivers**: Semantic precision, usage patterns, and industry alignment provide strong justification for the choice
 - **Practical constraint**: Import conflicts with `import { DateTime } from 'luxon'` eliminated the ideal `DateTime` option
-- In a backtester context, plain `DateTime` would be ideal if not for the Luxon dependency
+- In a date-time library context, plain `DateTime` would be ideal if not for the Luxon dependency
 - Validated through public API design review and empirical usage analysis
 - Factory naming follows established patterns in the codebase
 - The "Trading" prefix serves dual purposes: avoiding conflicts and providing domain context
