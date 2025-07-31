@@ -1,0 +1,3 @@
+# Exclude data files with custom column alignment
+src/core/time/usEquities/data/closedDays.ts
+src/core/time/usEquities/data/earlyCloseDays.ts

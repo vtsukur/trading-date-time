@@ -1,0 +1,39 @@
+{
+    "name": "trading-date-time",
+    "version": "0.1.0",
+    "description": "Interface for timezone-aware trading timestamp with market calendar support",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "test:unit": "jest test/unit",
+        "test:all": "jest test",
+        "lint": "eslint . --ext .ts",
+        "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
+    },
+    "keywords": [
+        "trading",
+        "datetime",
+        "finance"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "luxon": "^3.7.1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.31.0",
+        "@types/jest": "^30.0.0",
+        "@types/luxon": "^3.6.2",
+        "@types/node": "^24.0.15",
+        "@typescript-eslint/eslint-plugin": "^8.37.0",
+        "@typescript-eslint/parser": "^8.37.0",
+        "eslint": "^9.31.0",
+        "jest": "^30.0.4",
+        "prettier": "^3.6.2",
+        "prettier-plugin-organize-imports": "^4.2.0",
+        "ts-jest": "^29.4.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    }
+}
