@@ -1,0 +1,23 @@
+# Source files
+src/
+test/
+docs/
+
+# Build and development files
+tsconfig.json
+jest.config.cjs
+eslint.config.js
+.prettierrc
+.prettierignore
+
+# Development dependencies and cache
+node_modules/
+.git/
+.gitignore
+
+# IDE and OS files
+.vscode/
+.DS_Store
+*.log
+
+# Only include the built files in dist/

@@ -2,22 +2,41 @@
     "name": "trading-date-time",
     "version": "0.1.0",
     "description": "Interface for timezone-aware trading timestamp with market calendar support",
-    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc",
         "test": "jest",
         "test:unit": "jest test/unit",
         "test:all": "jest test",
         "lint": "eslint . --ext .ts",
-        "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
+        "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+        "prepublishOnly": "npm run test && npm run build"
     },
+    "files": [
+        "dist/**/*",
+        "README.md",
+        "LICENSE"
+    ],
     "keywords": [
         "trading",
         "datetime",
-        "finance"
+        "timezone",
+        "finance",
+        "market-hours",
+        "trading-calendar",
+        "luxon"
     ],
-    "author": "",
+    "author": "Volodymyr Tsukur <volodymyr@tsukur.tech>",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vtsukur/trading-date-time.git"
+    },
+    "bugs": {
+        "url": "https://github.com/vtsukur/trading-date-time/issues"
+    },
+    "homepage": "https://github.com/vtsukur/trading-date-time#readme",
     "dependencies": {
         "luxon": "^3.7.1"
     },
